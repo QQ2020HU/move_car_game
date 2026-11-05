@@ -1,0 +1,3788 @@
+// 由 tools/generate_levels.py 生成，请勿手工编辑（数据源：levels.json）
+module.exports = [
+ {
+  "id": "level_001",
+  "title": "初来乍到",
+  "rows": 6,
+  "cols": 6,
+  "exit": {
+   "side": "RIGHT",
+   "row": 2
+  },
+  "targetVehicleId": "car_red",
+  "parMoves": 2,
+  "vehicles": [
+   {
+    "id": "car_red",
+    "x": 1,
+    "y": 2,
+    "length": 2,
+    "orientation": "H",
+    "isTarget": true
+   },
+   {
+    "id": "car_a",
+    "x": 3,
+    "y": 1,
+    "length": 2,
+    "orientation": "V"
+   }
+  ],
+  "solution": [
+   {
+    "vehicleId": "car_a",
+    "delta": -1
+   },
+   {
+    "vehicleId": "car_red",
+    "delta": 5
+   }
+  ],
+  "difficulty": "easy"
+ },
+ {
+  "id": "level_002",
+  "title": "小试身手",
+  "rows": 6,
+  "cols": 6,
+  "exit": {
+   "side": "RIGHT",
+   "row": 2
+  },
+  "targetVehicleId": "car_red",
+  "parMoves": 3,
+  "vehicles": [
+   {
+    "id": "car_red",
+    "x": 0,
+    "y": 2,
+    "length": 2,
+    "orientation": "H",
+    "isTarget": true
+   },
+   {
+    "id": "car_a",
+    "x": 2,
+    "y": 2,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_b",
+    "x": 4,
+    "y": 1,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_c",
+    "x": 0,
+    "y": 5,
+    "length": 2,
+    "orientation": "H"
+   }
+  ],
+  "solution": [
+   {
+    "vehicleId": "car_a",
+    "delta": -2
+   },
+   {
+    "vehicleId": "car_b",
+    "delta": -1
+   },
+   {
+    "vehicleId": "car_red",
+    "delta": 6
+   }
+  ],
+  "difficulty": "easy"
+ },
+ {
+  "id": "level_003",
+  "title": "渐入佳境",
+  "rows": 6,
+  "cols": 6,
+  "exit": {
+   "side": "RIGHT",
+   "row": 2
+  },
+  "targetVehicleId": "car_red",
+  "parMoves": 3,
+  "vehicles": [
+   {
+    "id": "car_red",
+    "x": 1,
+    "y": 2,
+    "length": 2,
+    "orientation": "H",
+    "isTarget": true
+   },
+   {
+    "id": "car_a",
+    "x": 3,
+    "y": 0,
+    "length": 3,
+    "orientation": "V"
+   },
+   {
+    "id": "car_b",
+    "x": 4,
+    "y": 2,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_c",
+    "x": 0,
+    "y": 0,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_d",
+    "x": 1,
+    "y": 5,
+    "length": 2,
+    "orientation": "H"
+   }
+  ],
+  "solution": [
+   {
+    "vehicleId": "car_a",
+    "delta": 3
+   },
+   {
+    "vehicleId": "car_b",
+    "delta": -2
+   },
+   {
+    "vehicleId": "car_red",
+    "delta": 5
+   }
+  ],
+  "difficulty": "easy"
+ },
+ {
+  "id": "level_004",
+  "title": "迂回前进",
+  "rows": 6,
+  "cols": 6,
+  "exit": {
+   "side": "RIGHT",
+   "row": 2
+  },
+  "targetVehicleId": "car_red",
+  "parMoves": 3,
+  "vehicles": [
+   {
+    "id": "car_red",
+    "x": 2,
+    "y": 2,
+    "length": 2,
+    "orientation": "H",
+    "isTarget": true
+   },
+   {
+    "id": "car_a",
+    "x": 4,
+    "y": 2,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_b",
+    "x": 3,
+    "y": 0,
+    "length": 2,
+    "orientation": "H"
+   },
+   {
+    "id": "car_c",
+    "x": 4,
+    "y": 4,
+    "length": 2,
+    "orientation": "V"
+   }
+  ],
+  "solution": [
+   {
+    "vehicleId": "car_b",
+    "delta": -3
+   },
+   {
+    "vehicleId": "car_a",
+    "delta": -2
+   },
+   {
+    "vehicleId": "car_red",
+    "delta": 4
+   }
+  ],
+  "difficulty": "easy"
+ },
+ {
+  "id": "level_005",
+  "title": "见缝插针",
+  "rows": 6,
+  "cols": 6,
+  "exit": {
+   "side": "RIGHT",
+   "row": 2
+  },
+  "targetVehicleId": "car_red",
+  "parMoves": 3,
+  "vehicles": [
+   {
+    "id": "car_red",
+    "x": 0,
+    "y": 2,
+    "length": 2,
+    "orientation": "H",
+    "isTarget": true
+   },
+   {
+    "id": "car_a",
+    "x": 2,
+    "y": 1,
+    "length": 3,
+    "orientation": "V"
+   },
+   {
+    "id": "car_b",
+    "x": 1,
+    "y": 4,
+    "length": 2,
+    "orientation": "H"
+   },
+   {
+    "id": "car_c",
+    "x": 4,
+    "y": 0,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_d",
+    "x": 4,
+    "y": 3,
+    "length": 2,
+    "orientation": "H"
+   }
+  ],
+  "solution": [
+   {
+    "vehicleId": "car_b",
+    "delta": -1
+   },
+   {
+    "vehicleId": "car_a",
+    "delta": 2
+   },
+   {
+    "vehicleId": "car_red",
+    "delta": 6
+   }
+  ],
+  "difficulty": "easy"
+ },
+ {
+  "id": "level_006",
+  "title": "环环相扣",
+  "rows": 6,
+  "cols": 6,
+  "exit": {
+   "side": "RIGHT",
+   "row": 2
+  },
+  "targetVehicleId": "car_red",
+  "parMoves": 4,
+  "vehicles": [
+   {
+    "id": "car_red",
+    "x": 1,
+    "y": 2,
+    "length": 2,
+    "orientation": "H",
+    "isTarget": true
+   },
+   {
+    "id": "car_a",
+    "x": 3,
+    "y": 2,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_b",
+    "x": 3,
+    "y": 0,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_c",
+    "x": 2,
+    "y": 4,
+    "length": 2,
+    "orientation": "H"
+   },
+   {
+    "id": "car_d",
+    "x": 5,
+    "y": 2,
+    "length": 2,
+    "orientation": "V"
+   }
+  ],
+  "solution": [
+   {
+    "vehicleId": "car_c",
+    "delta": -2
+   },
+   {
+    "vehicleId": "car_a",
+    "delta": 1
+   },
+   {
+    "vehicleId": "car_d",
+    "delta": -2
+   },
+   {
+    "vehicleId": "car_red",
+    "delta": 5
+   }
+  ],
+  "difficulty": "easy"
+ },
+ {
+  "id": "level_007",
+  "title": "前后呼应",
+  "rows": 6,
+  "cols": 6,
+  "exit": {
+   "side": "RIGHT",
+   "row": 2
+  },
+  "targetVehicleId": "car_red",
+  "parMoves": 4,
+  "vehicles": [
+   {
+    "id": "car_red",
+    "x": 1,
+    "y": 2,
+    "length": 2,
+    "orientation": "H",
+    "isTarget": true
+   },
+   {
+    "id": "car_a",
+    "x": 3,
+    "y": 0,
+    "length": 3,
+    "orientation": "V"
+   },
+   {
+    "id": "car_b",
+    "x": 4,
+    "y": 2,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_c",
+    "x": 4,
+    "y": 0,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_d",
+    "x": 3,
+    "y": 4,
+    "length": 2,
+    "orientation": "H"
+   },
+   {
+    "id": "car_e",
+    "x": 0,
+    "y": 5,
+    "length": 2,
+    "orientation": "H"
+   }
+  ],
+  "solution": [
+   {
+    "vehicleId": "car_d",
+    "delta": -3
+   },
+   {
+    "vehicleId": "car_a",
+    "delta": 3
+   },
+   {
+    "vehicleId": "car_b",
+    "delta": 1
+   },
+   {
+    "vehicleId": "car_red",
+    "delta": 5
+   }
+  ],
+  "difficulty": "easy"
+ },
+ {
+  "id": "level_008",
+  "title": "层层封锁",
+  "rows": 6,
+  "cols": 6,
+  "exit": {
+   "side": "RIGHT",
+   "row": 2
+  },
+  "targetVehicleId": "car_red",
+  "parMoves": 5,
+  "vehicles": [
+   {
+    "id": "car_red",
+    "x": 0,
+    "y": 2,
+    "length": 2,
+    "orientation": "H",
+    "isTarget": true
+   },
+   {
+    "id": "car_a",
+    "x": 2,
+    "y": 0,
+    "length": 3,
+    "orientation": "V"
+   },
+   {
+    "id": "car_b",
+    "x": 1,
+    "y": 3,
+    "length": 2,
+    "orientation": "H"
+   },
+   {
+    "id": "car_c",
+    "x": 3,
+    "y": 2,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_d",
+    "x": 4,
+    "y": 2,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_e",
+    "x": 5,
+    "y": 4,
+    "length": 2,
+    "orientation": "V"
+   }
+  ],
+  "solution": [
+   {
+    "vehicleId": "car_b",
+    "delta": -1
+   },
+   {
+    "vehicleId": "car_a",
+    "delta": 3
+   },
+   {
+    "vehicleId": "car_c",
+    "delta": -2
+   },
+   {
+    "vehicleId": "car_d",
+    "delta": -2
+   },
+   {
+    "vehicleId": "car_red",
+    "delta": 6
+   }
+  ],
+  "difficulty": "easy"
+ },
+ {
+  "id": "level_009",
+  "title": "曲径通幽",
+  "rows": 6,
+  "cols": 6,
+  "exit": {
+   "side": "RIGHT",
+   "row": 2
+  },
+  "targetVehicleId": "car_red",
+  "parMoves": 4,
+  "vehicles": [
+   {
+    "id": "car_red",
+    "x": 1,
+    "y": 2,
+    "length": 2,
+    "orientation": "H",
+    "isTarget": true
+   },
+   {
+    "id": "car_a",
+    "x": 3,
+    "y": 1,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_b",
+    "x": 2,
+    "y": 0,
+    "length": 2,
+    "orientation": "H"
+   },
+   {
+    "id": "car_c",
+    "x": 4,
+    "y": 2,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_d",
+    "x": 4,
+    "y": 0,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_e",
+    "x": 3,
+    "y": 5,
+    "length": 2,
+    "orientation": "H"
+   },
+   {
+    "id": "car_f",
+    "x": 5,
+    "y": 1,
+    "length": 2,
+    "orientation": "V"
+   }
+  ],
+  "solution": [
+   {
+    "vehicleId": "car_a",
+    "delta": 2
+   },
+   {
+    "vehicleId": "car_c",
+    "delta": 1
+   },
+   {
+    "vehicleId": "car_f",
+    "delta": -1
+   },
+   {
+    "vehicleId": "car_red",
+    "delta": 5
+   }
+  ],
+  "difficulty": "easy"
+ },
+ {
+  "id": "level_010",
+  "title": "车水马龙",
+  "rows": 6,
+  "cols": 6,
+  "exit": {
+   "side": "RIGHT",
+   "row": 2
+  },
+  "targetVehicleId": "car_red",
+  "parMoves": 5,
+  "vehicles": [
+   {
+    "id": "car_red",
+    "x": 0,
+    "y": 2,
+    "length": 2,
+    "orientation": "H",
+    "isTarget": true
+   },
+   {
+    "id": "car_a",
+    "x": 2,
+    "y": 2,
+    "length": 3,
+    "orientation": "V"
+   },
+   {
+    "id": "car_b",
+    "x": 1,
+    "y": 0,
+    "length": 2,
+    "orientation": "H"
+   },
+   {
+    "id": "car_c",
+    "x": 3,
+    "y": 2,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_d",
+    "x": 4,
+    "y": 0,
+    "length": 2,
+    "orientation": "H"
+   },
+   {
+    "id": "car_e",
+    "x": 5,
+    "y": 2,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_f",
+    "x": 4,
+    "y": 5,
+    "length": 2,
+    "orientation": "H"
+   },
+   {
+    "id": "car_g",
+    "x": 3,
+    "y": 4,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_h",
+    "x": 1,
+    "y": 5,
+    "length": 2,
+    "orientation": "H"
+   }
+  ],
+  "solution": [
+   {
+    "vehicleId": "car_c",
+    "delta": -2
+   },
+   {
+    "vehicleId": "car_e",
+    "delta": 1
+   },
+   {
+    "vehicleId": "car_h",
+    "delta": -1
+   },
+   {
+    "vehicleId": "car_a",
+    "delta": 1
+   },
+   {
+    "vehicleId": "car_red",
+    "delta": 6
+   }
+  ],
+  "difficulty": "easy"
+ },
+ {
+  "id": "level_011",
+  "title": "街头巷尾",
+  "rows": 6,
+  "cols": 6,
+  "exit": {
+   "side": "RIGHT",
+   "row": 2
+  },
+  "targetVehicleId": "car_red",
+  "parMoves": 6,
+  "vehicles": [
+   {
+    "id": "car_red",
+    "x": 0,
+    "y": 2,
+    "length": 2,
+    "orientation": "H",
+    "isTarget": true
+   },
+   {
+    "id": "car_b",
+    "x": 3,
+    "y": 1,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_c",
+    "x": 4,
+    "y": 5,
+    "length": 2,
+    "orientation": "H"
+   },
+   {
+    "id": "car_d",
+    "x": 5,
+    "y": 1,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_e",
+    "x": 4,
+    "y": 4,
+    "length": 2,
+    "orientation": "H"
+   },
+   {
+    "id": "car_f",
+    "x": 4,
+    "y": 0,
+    "length": 2,
+    "orientation": "H"
+   },
+   {
+    "id": "car_g",
+    "x": 2,
+    "y": 5,
+    "length": 2,
+    "orientation": "H"
+   },
+   {
+    "id": "car_h",
+    "x": 2,
+    "y": 2,
+    "length": 3,
+    "orientation": "V"
+   },
+   {
+    "id": "car_i",
+    "x": 0,
+    "y": 0,
+    "length": 2,
+    "orientation": "H"
+   },
+   {
+    "id": "car_j",
+    "x": 4,
+    "y": 3,
+    "length": 2,
+    "orientation": "H"
+   }
+  ],
+  "obstacles": [
+   [
+    2,
+    1
+   ],
+   [
+    1,
+    4
+   ]
+  ],
+  "solution": [
+   {
+    "vehicleId": "car_b",
+    "delta": 2
+   },
+   {
+    "vehicleId": "car_f",
+    "delta": -2
+   },
+   {
+    "vehicleId": "car_d",
+    "delta": -1
+   },
+   {
+    "vehicleId": "car_g",
+    "delta": -2
+   },
+   {
+    "vehicleId": "car_h",
+    "delta": 1
+   },
+   {
+    "vehicleId": "car_red",
+    "delta": 6
+   }
+  ],
+  "difficulty": "normal"
+ },
+ {
+  "id": "level_012",
+  "title": "寸步难行",
+  "rows": 6,
+  "cols": 6,
+  "exit": {
+   "side": "RIGHT",
+   "row": 2
+  },
+  "targetVehicleId": "car_red",
+  "parMoves": 6,
+  "vehicles": [
+   {
+    "id": "car_red",
+    "x": 0,
+    "y": 2,
+    "length": 2,
+    "orientation": "H",
+    "isTarget": true
+   },
+   {
+    "id": "car_b",
+    "x": 3,
+    "y": 2,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_c",
+    "x": 5,
+    "y": 0,
+    "length": 3,
+    "orientation": "V"
+   },
+   {
+    "id": "car_d",
+    "x": 0,
+    "y": 3,
+    "length": 3,
+    "orientation": "H"
+   },
+   {
+    "id": "car_e",
+    "x": 1,
+    "y": 5,
+    "length": 2,
+    "orientation": "H"
+   },
+   {
+    "id": "car_f",
+    "x": 4,
+    "y": 0,
+    "length": 3,
+    "orientation": "V"
+   },
+   {
+    "id": "car_g",
+    "x": 1,
+    "y": 1,
+    "length": 2,
+    "orientation": "H"
+   },
+   {
+    "id": "car_h",
+    "x": 2,
+    "y": 4,
+    "length": 2,
+    "orientation": "H"
+   },
+   {
+    "id": "car_i",
+    "x": 3,
+    "y": 5,
+    "length": 2,
+    "orientation": "H"
+   }
+  ],
+  "obstacles": [
+   [
+    2,
+    0
+   ],
+   [
+    0,
+    4
+   ]
+  ],
+  "solution": [
+   {
+    "vehicleId": "car_b",
+    "delta": -2
+   },
+   {
+    "vehicleId": "car_c",
+    "delta": 3
+   },
+   {
+    "vehicleId": "car_e",
+    "delta": -1
+   },
+   {
+    "vehicleId": "car_i",
+    "delta": -1
+   },
+   {
+    "vehicleId": "car_f",
+    "delta": 3
+   },
+   {
+    "vehicleId": "car_red",
+    "delta": 6
+   }
+  ],
+  "difficulty": "normal"
+ },
+ {
+  "id": "level_013",
+  "title": "移形换位",
+  "rows": 6,
+  "cols": 6,
+  "exit": {
+   "side": "RIGHT",
+   "row": 2
+  },
+  "targetVehicleId": "car_red",
+  "parMoves": 6,
+  "vehicles": [
+   {
+    "id": "car_red",
+    "x": 1,
+    "y": 2,
+    "length": 2,
+    "orientation": "H",
+    "isTarget": true
+   },
+   {
+    "id": "car_b",
+    "x": 2,
+    "y": 3,
+    "length": 3,
+    "orientation": "V"
+   },
+   {
+    "id": "car_c",
+    "x": 4,
+    "y": 2,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_d",
+    "x": 3,
+    "y": 5,
+    "length": 3,
+    "orientation": "H"
+   },
+   {
+    "id": "car_e",
+    "x": 4,
+    "y": 0,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_f",
+    "x": 5,
+    "y": 2,
+    "length": 3,
+    "orientation": "V"
+   },
+   {
+    "id": "car_g",
+    "x": 2,
+    "y": 1,
+    "length": 2,
+    "orientation": "H"
+   },
+   {
+    "id": "car_h",
+    "x": 0,
+    "y": 0,
+    "length": 2,
+    "orientation": "H"
+   }
+  ],
+  "obstacles": [
+   [
+    1,
+    4
+   ]
+  ],
+  "solution": [
+   {
+    "vehicleId": "car_c",
+    "delta": 1
+   },
+   {
+    "vehicleId": "car_red",
+    "delta": 2
+   },
+   {
+    "vehicleId": "car_b",
+    "delta": -1
+   },
+   {
+    "vehicleId": "car_d",
+    "delta": -3
+   },
+   {
+    "vehicleId": "car_f",
+    "delta": 1
+   },
+   {
+    "vehicleId": "car_red",
+    "delta": 3
+   }
+  ],
+  "difficulty": "normal"
+ },
+ {
+  "id": "level_014",
+  "title": "左冲右突",
+  "rows": 6,
+  "cols": 6,
+  "exit": {
+   "side": "RIGHT",
+   "row": 2
+  },
+  "targetVehicleId": "car_red",
+  "parMoves": 6,
+  "vehicles": [
+   {
+    "id": "car_red",
+    "x": 0,
+    "y": 2,
+    "length": 2,
+    "orientation": "H",
+    "isTarget": true
+   },
+   {
+    "id": "car_b",
+    "x": 5,
+    "y": 0,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_c",
+    "x": 4,
+    "y": 4,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_d",
+    "x": 1,
+    "y": 4,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_e",
+    "x": 2,
+    "y": 5,
+    "length": 2,
+    "orientation": "H"
+   },
+   {
+    "id": "car_f",
+    "x": 3,
+    "y": 1,
+    "length": 3,
+    "orientation": "V"
+   },
+   {
+    "id": "car_g",
+    "x": 2,
+    "y": 0,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_h",
+    "x": 5,
+    "y": 2,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_i",
+    "x": 4,
+    "y": 1,
+    "length": 2,
+    "orientation": "V"
+   }
+  ],
+  "obstacles": [
+   [
+    0,
+    4
+   ]
+  ],
+  "solution": [
+   {
+    "vehicleId": "car_c",
+    "delta": -1
+   },
+   {
+    "vehicleId": "car_e",
+    "delta": 2
+   },
+   {
+    "vehicleId": "car_f",
+    "delta": 2
+   },
+   {
+    "vehicleId": "car_h",
+    "delta": 1
+   },
+   {
+    "vehicleId": "car_i",
+    "delta": -1
+   },
+   {
+    "vehicleId": "car_red",
+    "delta": 6
+   }
+  ],
+  "difficulty": "normal"
+ },
+ {
+  "id": "level_015",
+  "title": "狭路相逢",
+  "rows": 6,
+  "cols": 6,
+  "exit": {
+   "side": "RIGHT",
+   "row": 2
+  },
+  "targetVehicleId": "car_red",
+  "parMoves": 8,
+  "vehicles": [
+   {
+    "id": "car_red",
+    "x": 1,
+    "y": 2,
+    "length": 2,
+    "orientation": "H",
+    "isTarget": true
+   },
+   {
+    "id": "car_b",
+    "x": 3,
+    "y": 2,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_c",
+    "x": 1,
+    "y": 4,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_d",
+    "x": 4,
+    "y": 1,
+    "length": 3,
+    "orientation": "V"
+   },
+   {
+    "id": "car_e",
+    "x": 2,
+    "y": 0,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_f",
+    "x": 4,
+    "y": 4,
+    "length": 2,
+    "orientation": "H"
+   },
+   {
+    "id": "car_g",
+    "x": 0,
+    "y": 1,
+    "length": 2,
+    "orientation": "H"
+   },
+   {
+    "id": "car_h",
+    "x": 2,
+    "y": 4,
+    "length": 2,
+    "orientation": "H"
+   },
+   {
+    "id": "car_i",
+    "x": 0,
+    "y": 4,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_j",
+    "x": 2,
+    "y": 5,
+    "length": 2,
+    "orientation": "H"
+   }
+  ],
+  "obstacles": [
+   [
+    4,
+    0
+   ],
+   [
+    5,
+    5
+   ],
+   [
+    5,
+    0
+   ]
+  ],
+  "solution": [
+   {
+    "vehicleId": "car_b",
+    "delta": -2
+   },
+   {
+    "vehicleId": "car_red",
+    "delta": 1
+   },
+   {
+    "vehicleId": "car_c",
+    "delta": -2
+   },
+   {
+    "vehicleId": "car_i",
+    "delta": -2
+   },
+   {
+    "vehicleId": "car_h",
+    "delta": -2
+   },
+   {
+    "vehicleId": "car_f",
+    "delta": -2
+   },
+   {
+    "vehicleId": "car_d",
+    "delta": 2
+   },
+   {
+    "vehicleId": "car_red",
+    "delta": 4
+   }
+  ],
+  "difficulty": "normal"
+ },
+ {
+  "id": "level_016",
+  "title": "峰回路转",
+  "rows": 6,
+  "cols": 6,
+  "exit": {
+   "side": "RIGHT",
+   "row": 2
+  },
+  "targetVehicleId": "car_red",
+  "parMoves": 8,
+  "vehicles": [
+   {
+    "id": "car_red",
+    "x": 0,
+    "y": 2,
+    "length": 2,
+    "orientation": "H",
+    "isTarget": true
+   },
+   {
+    "id": "car_b",
+    "x": 1,
+    "y": 1,
+    "length": 2,
+    "orientation": "H"
+   },
+   {
+    "id": "car_c",
+    "x": 2,
+    "y": 2,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_d",
+    "x": 5,
+    "y": 2,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_e",
+    "x": 0,
+    "y": 3,
+    "length": 3,
+    "orientation": "V"
+   },
+   {
+    "id": "car_f",
+    "x": 2,
+    "y": 4,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_g",
+    "x": 3,
+    "y": 1,
+    "length": 3,
+    "orientation": "H"
+   },
+   {
+    "id": "car_h",
+    "x": 2,
+    "y": 0,
+    "length": 2,
+    "orientation": "H"
+   },
+   {
+    "id": "car_i",
+    "x": 3,
+    "y": 4,
+    "length": 2,
+    "orientation": "V"
+   }
+  ],
+  "obstacles": [
+   [
+    1,
+    4
+   ],
+   [
+    4,
+    4
+   ],
+   [
+    5,
+    4
+   ]
+  ],
+  "solution": [
+   {
+    "vehicleId": "car_b",
+    "delta": -1
+   },
+   {
+    "vehicleId": "car_h",
+    "delta": -2
+   },
+   {
+    "vehicleId": "car_c",
+    "delta": -2
+   },
+   {
+    "vehicleId": "car_red",
+    "delta": 3
+   },
+   {
+    "vehicleId": "car_c",
+    "delta": 2
+   },
+   {
+    "vehicleId": "car_g",
+    "delta": -1
+   },
+   {
+    "vehicleId": "car_d",
+    "delta": -2
+   },
+   {
+    "vehicleId": "car_red",
+    "delta": 3
+   }
+  ],
+  "difficulty": "normal"
+ },
+ {
+  "id": "level_017",
+  "title": "步步为营",
+  "rows": 7,
+  "cols": 7,
+  "exit": {
+   "side": "RIGHT",
+   "row": 3
+  },
+  "targetVehicleId": "car_red",
+  "parMoves": 9,
+  "vehicles": [
+   {
+    "id": "car_red",
+    "x": 0,
+    "y": 3,
+    "length": 2,
+    "orientation": "H",
+    "isTarget": true
+   },
+   {
+    "id": "car_b",
+    "x": 0,
+    "y": 6,
+    "length": 3,
+    "orientation": "H"
+   },
+   {
+    "id": "car_c",
+    "x": 3,
+    "y": 0,
+    "length": 3,
+    "orientation": "V"
+   },
+   {
+    "id": "car_d",
+    "x": 5,
+    "y": 2,
+    "length": 3,
+    "orientation": "V"
+   },
+   {
+    "id": "car_e",
+    "x": 2,
+    "y": 3,
+    "length": 3,
+    "orientation": "V"
+   },
+   {
+    "id": "car_f",
+    "x": 3,
+    "y": 4,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_g",
+    "x": 5,
+    "y": 5,
+    "length": 2,
+    "orientation": "H"
+   },
+   {
+    "id": "car_h",
+    "x": 0,
+    "y": 0,
+    "length": 3,
+    "orientation": "V"
+   },
+   {
+    "id": "car_i",
+    "x": 6,
+    "y": 0,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_j",
+    "x": 1,
+    "y": 0,
+    "length": 2,
+    "orientation": "H"
+   }
+  ],
+  "obstacles": [
+   [
+    4,
+    1
+   ],
+   [
+    6,
+    6
+   ],
+   [
+    4,
+    6
+   ]
+  ],
+  "solution": [
+   {
+    "vehicleId": "car_c",
+    "delta": 1
+   },
+   {
+    "vehicleId": "car_j",
+    "delta": 3
+   },
+   {
+    "vehicleId": "car_c",
+    "delta": -1
+   },
+   {
+    "vehicleId": "car_e",
+    "delta": -3
+   },
+   {
+    "vehicleId": "car_f",
+    "delta": -1
+   },
+   {
+    "vehicleId": "car_g",
+    "delta": -5
+   },
+   {
+    "vehicleId": "car_d",
+    "delta": 2
+   },
+   {
+    "vehicleId": "car_f",
+    "delta": 1
+   },
+   {
+    "vehicleId": "car_red",
+    "delta": 7
+   }
+  ],
+  "difficulty": "normal"
+ },
+ {
+  "id": "level_018",
+  "title": "进退两难",
+  "rows": 7,
+  "cols": 7,
+  "exit": {
+   "side": "RIGHT",
+   "row": 3
+  },
+  "targetVehicleId": "car_red",
+  "parMoves": 9,
+  "vehicles": [
+   {
+    "id": "car_red",
+    "x": 1,
+    "y": 3,
+    "length": 2,
+    "orientation": "H",
+    "isTarget": true
+   },
+   {
+    "id": "car_b",
+    "x": 1,
+    "y": 0,
+    "length": 3,
+    "orientation": "V"
+   },
+   {
+    "id": "car_c",
+    "x": 5,
+    "y": 3,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_d",
+    "x": 5,
+    "y": 1,
+    "length": 2,
+    "orientation": "H"
+   },
+   {
+    "id": "car_e",
+    "x": 4,
+    "y": 0,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_f",
+    "x": 0,
+    "y": 3,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_g",
+    "x": 2,
+    "y": 0,
+    "length": 3,
+    "orientation": "V"
+   },
+   {
+    "id": "car_h",
+    "x": 0,
+    "y": 0,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_i",
+    "x": 5,
+    "y": 6,
+    "length": 2,
+    "orientation": "H"
+   },
+   {
+    "id": "car_j",
+    "x": 3,
+    "y": 2,
+    "length": 2,
+    "orientation": "H"
+   }
+  ],
+  "obstacles": [
+   [
+    4,
+    4
+   ],
+   [
+    6,
+    4
+   ],
+   [
+    5,
+    5
+   ],
+   [
+    6,
+    0
+   ]
+  ],
+  "solution": [
+   {
+    "vehicleId": "car_red",
+    "delta": 2
+   },
+   {
+    "vehicleId": "car_g",
+    "delta": 4
+   },
+   {
+    "vehicleId": "car_red",
+    "delta": -2
+   },
+   {
+    "vehicleId": "car_j",
+    "delta": -1
+   },
+   {
+    "vehicleId": "car_e",
+    "delta": 2
+   },
+   {
+    "vehicleId": "car_d",
+    "delta": -3
+   },
+   {
+    "vehicleId": "car_c",
+    "delta": -3
+   },
+   {
+    "vehicleId": "car_e",
+    "delta": -2
+   },
+   {
+    "vehicleId": "car_red",
+    "delta": 6
+   }
+  ],
+  "difficulty": "normal"
+ },
+ {
+  "id": "level_019",
+  "title": "水泄不通",
+  "rows": 7,
+  "cols": 7,
+  "exit": {
+   "side": "RIGHT",
+   "row": 3
+  },
+  "targetVehicleId": "car_red",
+  "parMoves": 9,
+  "vehicles": [
+   {
+    "id": "car_red",
+    "x": 2,
+    "y": 3,
+    "length": 2,
+    "orientation": "H",
+    "isTarget": true
+   },
+   {
+    "id": "car_b",
+    "x": 1,
+    "y": 5,
+    "length": 2,
+    "orientation": "H"
+   },
+   {
+    "id": "car_c",
+    "x": 5,
+    "y": 1,
+    "length": 3,
+    "orientation": "V"
+   },
+   {
+    "id": "car_d",
+    "x": 1,
+    "y": 2,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_e",
+    "x": 1,
+    "y": 4,
+    "length": 3,
+    "orientation": "H"
+   },
+   {
+    "id": "car_f",
+    "x": 0,
+    "y": 6,
+    "length": 2,
+    "orientation": "H"
+   },
+   {
+    "id": "car_g",
+    "x": 4,
+    "y": 3,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_h",
+    "x": 1,
+    "y": 0,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_i",
+    "x": 4,
+    "y": 5,
+    "length": 3,
+    "orientation": "H"
+   },
+   {
+    "id": "car_j",
+    "x": 2,
+    "y": 1,
+    "length": 3,
+    "orientation": "H"
+   }
+  ],
+  "obstacles": [
+   [
+    3,
+    6
+   ],
+   [
+    2,
+    6
+   ],
+   [
+    6,
+    2
+   ],
+   [
+    0,
+    2
+   ]
+  ],
+  "solution": [
+   {
+    "vehicleId": "car_b",
+    "delta": 1
+   },
+   {
+    "vehicleId": "car_c",
+    "delta": -1
+   },
+   {
+    "vehicleId": "car_g",
+    "delta": -1
+   },
+   {
+    "vehicleId": "car_e",
+    "delta": 1
+   },
+   {
+    "vehicleId": "car_d",
+    "delta": 2
+   },
+   {
+    "vehicleId": "car_h",
+    "delta": 2
+   },
+   {
+    "vehicleId": "car_j",
+    "delta": -2
+   },
+   {
+    "vehicleId": "car_g",
+    "delta": -2
+   },
+   {
+    "vehicleId": "car_red",
+    "delta": 5
+   }
+  ],
+  "difficulty": "normal"
+ },
+ {
+  "id": "level_020",
+  "title": "抽丝剥茧",
+  "rows": 7,
+  "cols": 7,
+  "exit": {
+   "side": "RIGHT",
+   "row": 3
+  },
+  "targetVehicleId": "car_red",
+  "parMoves": 9,
+  "vehicles": [
+   {
+    "id": "car_red",
+    "x": 2,
+    "y": 3,
+    "length": 2,
+    "orientation": "H",
+    "isTarget": true
+   },
+   {
+    "id": "car_b",
+    "x": 4,
+    "y": 4,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_c",
+    "x": 5,
+    "y": 4,
+    "length": 3,
+    "orientation": "V"
+   },
+   {
+    "id": "car_d",
+    "x": 5,
+    "y": 1,
+    "length": 2,
+    "orientation": "H"
+   },
+   {
+    "id": "car_e",
+    "x": 1,
+    "y": 2,
+    "length": 3,
+    "orientation": "V"
+   },
+   {
+    "id": "car_f",
+    "x": 0,
+    "y": 0,
+    "length": 3,
+    "orientation": "V"
+   },
+   {
+    "id": "car_g",
+    "x": 6,
+    "y": 2,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_h",
+    "x": 3,
+    "y": 0,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_i",
+    "x": 6,
+    "y": 4,
+    "length": 3,
+    "orientation": "V"
+   },
+   {
+    "id": "car_j",
+    "x": 0,
+    "y": 6,
+    "length": 2,
+    "orientation": "H"
+   },
+   {
+    "id": "car_k",
+    "x": 4,
+    "y": 0,
+    "length": 3,
+    "orientation": "V"
+   }
+  ],
+  "obstacles": [
+   [
+    1,
+    5
+   ],
+   [
+    2,
+    6
+   ],
+   [
+    5,
+    0
+   ],
+   [
+    2,
+    5
+   ]
+  ],
+  "solution": [
+   {
+    "vehicleId": "car_red",
+    "delta": 2
+   },
+   {
+    "vehicleId": "car_b",
+    "delta": 1
+   },
+   {
+    "vehicleId": "car_h",
+    "delta": 4
+   },
+   {
+    "vehicleId": "car_red",
+    "delta": -2
+   },
+   {
+    "vehicleId": "car_k",
+    "delta": 2
+   },
+   {
+    "vehicleId": "car_d",
+    "delta": -4
+   },
+   {
+    "vehicleId": "car_g",
+    "delta": -2
+   },
+   {
+    "vehicleId": "car_k",
+    "delta": -2
+   },
+   {
+    "vehicleId": "car_red",
+    "delta": 5
+   }
+  ],
+  "difficulty": "normal"
+ },
+ {
+  "id": "level_021",
+  "title": "千头万绪",
+  "rows": 7,
+  "cols": 7,
+  "exit": {
+   "side": "RIGHT",
+   "row": 3
+  },
+  "targetVehicleId": "car_red",
+  "parMoves": 11,
+  "vehicles": [
+   {
+    "id": "car_red",
+    "x": 0,
+    "y": 3,
+    "length": 2,
+    "orientation": "H",
+    "isTarget": true
+   },
+   {
+    "id": "car_b",
+    "x": 4,
+    "y": 5,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_c",
+    "x": 4,
+    "y": 1,
+    "length": 2,
+    "orientation": "H"
+   },
+   {
+    "id": "car_d",
+    "x": 5,
+    "y": 2,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_e",
+    "x": 1,
+    "y": 5,
+    "length": 3,
+    "orientation": "H"
+   },
+   {
+    "id": "car_f",
+    "x": 3,
+    "y": 2,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_g",
+    "x": 2,
+    "y": 0,
+    "length": 2,
+    "orientation": "H"
+   },
+   {
+    "id": "car_h",
+    "x": 1,
+    "y": 4,
+    "length": 2,
+    "orientation": "H"
+   },
+   {
+    "id": "car_i",
+    "x": 2,
+    "y": 2,
+    "length": 2,
+    "orientation": "V"
+   }
+  ],
+  "obstacles": [
+   [
+    0,
+    1
+   ],
+   [
+    2,
+    1
+   ]
+  ],
+  "solution": [
+   {
+    "vehicleId": "car_c",
+    "delta": 1
+   },
+   {
+    "vehicleId": "car_b",
+    "delta": -5
+   },
+   {
+    "vehicleId": "car_e",
+    "delta": 2
+   },
+   {
+    "vehicleId": "car_f",
+    "delta": -1
+   },
+   {
+    "vehicleId": "car_h",
+    "delta": -1
+   },
+   {
+    "vehicleId": "car_i",
+    "delta": 2
+   },
+   {
+    "vehicleId": "car_red",
+    "delta": 3
+   },
+   {
+    "vehicleId": "car_i",
+    "delta": -2
+   },
+   {
+    "vehicleId": "car_e",
+    "delta": -3
+   },
+   {
+    "vehicleId": "car_d",
+    "delta": 2
+   },
+   {
+    "vehicleId": "car_red",
+    "delta": 4
+   }
+  ],
+  "difficulty": "hard"
+ },
+ {
+  "id": "level_022",
+  "title": "绝处逢生",
+  "rows": 7,
+  "cols": 7,
+  "exit": {
+   "side": "RIGHT",
+   "row": 3
+  },
+  "targetVehicleId": "car_red",
+  "parMoves": 12,
+  "vehicles": [
+   {
+    "id": "car_red",
+    "x": 1,
+    "y": 3,
+    "length": 2,
+    "orientation": "H",
+    "isTarget": true
+   },
+   {
+    "id": "car_b",
+    "x": 5,
+    "y": 2,
+    "length": 3,
+    "orientation": "V"
+   },
+   {
+    "id": "car_c",
+    "x": 1,
+    "y": 6,
+    "length": 2,
+    "orientation": "H"
+   },
+   {
+    "id": "car_d",
+    "x": 3,
+    "y": 5,
+    "length": 2,
+    "orientation": "H"
+   },
+   {
+    "id": "car_e",
+    "x": 3,
+    "y": 1,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_f",
+    "x": 1,
+    "y": 1,
+    "length": 2,
+    "orientation": "H"
+   },
+   {
+    "id": "car_g",
+    "x": 2,
+    "y": 4,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_h",
+    "x": 4,
+    "y": 0,
+    "length": 3,
+    "orientation": "V"
+   },
+   {
+    "id": "car_i",
+    "x": 6,
+    "y": 3,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_j",
+    "x": 0,
+    "y": 3,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_k",
+    "x": 3,
+    "y": 3,
+    "length": 2,
+    "orientation": "V"
+   }
+  ],
+  "obstacles": [
+   [
+    0,
+    5
+   ],
+   [
+    5,
+    0
+   ]
+  ],
+  "solution": [
+   {
+    "vehicleId": "car_d",
+    "delta": 1
+   },
+   {
+    "vehicleId": "car_f",
+    "delta": -1
+   },
+   {
+    "vehicleId": "car_i",
+    "delta": -3
+   },
+   {
+    "vehicleId": "car_k",
+    "delta": 1
+   },
+   {
+    "vehicleId": "car_red",
+    "delta": 2
+   },
+   {
+    "vehicleId": "car_g",
+    "delta": -4
+   },
+   {
+    "vehicleId": "car_red",
+    "delta": -2
+   },
+   {
+    "vehicleId": "car_k",
+    "delta": -1
+   },
+   {
+    "vehicleId": "car_d",
+    "delta": -3
+   },
+   {
+    "vehicleId": "car_b",
+    "delta": 2
+   },
+   {
+    "vehicleId": "car_k",
+    "delta": 1
+   },
+   {
+    "vehicleId": "car_red",
+    "delta": 6
+   }
+  ],
+  "difficulty": "hard"
+ },
+ {
+  "id": "level_023",
+  "title": "运筹帷幄",
+  "rows": 7,
+  "cols": 7,
+  "exit": {
+   "side": "RIGHT",
+   "row": 3
+  },
+  "targetVehicleId": "car_red",
+  "parMoves": 12,
+  "vehicles": [
+   {
+    "id": "car_red",
+    "x": 1,
+    "y": 3,
+    "length": 2,
+    "orientation": "H",
+    "isTarget": true
+   },
+   {
+    "id": "car_b",
+    "x": 5,
+    "y": 1,
+    "length": 2,
+    "orientation": "H"
+   },
+   {
+    "id": "car_c",
+    "x": 2,
+    "y": 0,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_d",
+    "x": 5,
+    "y": 6,
+    "length": 2,
+    "orientation": "H"
+   },
+   {
+    "id": "car_e",
+    "x": 3,
+    "y": 6,
+    "length": 2,
+    "orientation": "H"
+   },
+   {
+    "id": "car_f",
+    "x": 5,
+    "y": 2,
+    "length": 3,
+    "orientation": "V"
+   },
+   {
+    "id": "car_g",
+    "x": 4,
+    "y": 2,
+    "length": 3,
+    "orientation": "V"
+   },
+   {
+    "id": "car_h",
+    "x": 0,
+    "y": 0,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_i",
+    "x": 3,
+    "y": 1,
+    "length": 3,
+    "orientation": "V"
+   },
+   {
+    "id": "car_j",
+    "x": 0,
+    "y": 2,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_k",
+    "x": 0,
+    "y": 6,
+    "length": 3,
+    "orientation": "H"
+   }
+  ],
+  "obstacles": [
+   [
+    6,
+    5
+   ],
+   [
+    3,
+    5
+   ],
+   [
+    0,
+    4
+   ]
+  ],
+  "solution": [
+   {
+    "vehicleId": "car_g",
+    "delta": -2
+   },
+   {
+    "vehicleId": "car_i",
+    "delta": -1
+   },
+   {
+    "vehicleId": "car_red",
+    "delta": 2
+   },
+   {
+    "vehicleId": "car_c",
+    "delta": 4
+   },
+   {
+    "vehicleId": "car_red",
+    "delta": -2
+   },
+   {
+    "vehicleId": "car_g",
+    "delta": 2
+   },
+   {
+    "vehicleId": "car_i",
+    "delta": 2
+   },
+   {
+    "vehicleId": "car_b",
+    "delta": -4
+   },
+   {
+    "vehicleId": "car_f",
+    "delta": -2
+   },
+   {
+    "vehicleId": "car_g",
+    "delta": -2
+   },
+   {
+    "vehicleId": "car_i",
+    "delta": -2
+   },
+   {
+    "vehicleId": "car_red",
+    "delta": 6
+   }
+  ],
+  "difficulty": "hard"
+ },
+ {
+  "id": "level_024",
+  "title": "盘根错节",
+  "rows": 8,
+  "cols": 8,
+  "exit": {
+   "side": "RIGHT",
+   "row": 3
+  },
+  "targetVehicleId": "car_red",
+  "parMoves": 11,
+  "vehicles": [
+   {
+    "id": "car_red",
+    "x": 4,
+    "y": 3,
+    "length": 2,
+    "orientation": "H",
+    "isTarget": true
+   },
+   {
+    "id": "car_b",
+    "x": 6,
+    "y": 0,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_c",
+    "x": 2,
+    "y": 2,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_d",
+    "x": 4,
+    "y": 1,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_e",
+    "x": 6,
+    "y": 5,
+    "length": 2,
+    "orientation": "H"
+   },
+   {
+    "id": "car_f",
+    "x": 4,
+    "y": 4,
+    "length": 3,
+    "orientation": "V"
+   },
+   {
+    "id": "car_g",
+    "x": 1,
+    "y": 4,
+    "length": 2,
+    "orientation": "H"
+   },
+   {
+    "id": "car_h",
+    "x": 3,
+    "y": 0,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_i",
+    "x": 3,
+    "y": 4,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_j",
+    "x": 6,
+    "y": 2,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_k",
+    "x": 0,
+    "y": 7,
+    "length": 2,
+    "orientation": "H"
+   },
+   {
+    "id": "car_l",
+    "x": 0,
+    "y": 5,
+    "length": 2,
+    "orientation": "H"
+   },
+   {
+    "id": "car_m",
+    "x": 0,
+    "y": 2,
+    "length": 3,
+    "orientation": "V"
+   },
+   {
+    "id": "car_n",
+    "x": 0,
+    "y": 6,
+    "length": 2,
+    "orientation": "H"
+   },
+   {
+    "id": "car_o",
+    "x": 5,
+    "y": 6,
+    "length": 3,
+    "orientation": "H"
+   }
+  ],
+  "obstacles": [
+   [
+    4,
+    7
+   ],
+   [
+    2,
+    1
+   ],
+   [
+    6,
+    7
+   ]
+  ],
+  "solution": [
+   {
+    "vehicleId": "car_d",
+    "delta": -1
+   },
+   {
+    "vehicleId": "car_i",
+    "delta": 2
+   },
+   {
+    "vehicleId": "car_m",
+    "delta": -2
+   },
+   {
+    "vehicleId": "car_g",
+    "delta": -1
+   },
+   {
+    "vehicleId": "car_c",
+    "delta": 4
+   },
+   {
+    "vehicleId": "car_red",
+    "delta": -4
+   },
+   {
+    "vehicleId": "car_f",
+    "delta": -2
+   },
+   {
+    "vehicleId": "car_e",
+    "delta": -4
+   },
+   {
+    "vehicleId": "car_f",
+    "delta": 2
+   },
+   {
+    "vehicleId": "car_j",
+    "delta": 2
+   },
+   {
+    "vehicleId": "car_red",
+    "delta": 8
+   }
+  ],
+  "difficulty": "hard"
+ },
+ {
+  "id": "level_025",
+  "title": "柳暗花明",
+  "rows": 8,
+  "cols": 8,
+  "exit": {
+   "side": "RIGHT",
+   "row": 3
+  },
+  "targetVehicleId": "car_red",
+  "parMoves": 11,
+  "vehicles": [
+   {
+    "id": "car_red",
+    "x": 1,
+    "y": 3,
+    "length": 2,
+    "orientation": "H",
+    "isTarget": true
+   },
+   {
+    "id": "car_b",
+    "x": 2,
+    "y": 4,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_c",
+    "x": 2,
+    "y": 1,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_d",
+    "x": 5,
+    "y": 2,
+    "length": 2,
+    "orientation": "H"
+   },
+   {
+    "id": "car_e",
+    "x": 0,
+    "y": 3,
+    "length": 3,
+    "orientation": "V"
+   },
+   {
+    "id": "car_f",
+    "x": 6,
+    "y": 3,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_g",
+    "x": 1,
+    "y": 0,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_h",
+    "x": 1,
+    "y": 4,
+    "length": 3,
+    "orientation": "V"
+   },
+   {
+    "id": "car_i",
+    "x": 7,
+    "y": 1,
+    "length": 3,
+    "orientation": "V"
+   },
+   {
+    "id": "car_j",
+    "x": 6,
+    "y": 5,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_k",
+    "x": 4,
+    "y": 1,
+    "length": 3,
+    "orientation": "V"
+   },
+   {
+    "id": "car_l",
+    "x": 7,
+    "y": 5,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_m",
+    "x": 5,
+    "y": 3,
+    "length": 2,
+    "orientation": "V"
+   }
+  ],
+  "obstacles": [
+   [
+    3,
+    2
+   ],
+   [
+    5,
+    5
+   ],
+   [
+    4,
+    6
+   ],
+   [
+    6,
+    7
+   ],
+   [
+    2,
+    7
+   ]
+  ],
+  "solution": [
+   {
+    "vehicleId": "car_k",
+    "delta": 2
+   },
+   {
+    "vehicleId": "car_d",
+    "delta": -1
+   },
+   {
+    "vehicleId": "car_f",
+    "delta": -3
+   },
+   {
+    "vehicleId": "car_l",
+    "delta": 1
+   },
+   {
+    "vehicleId": "car_i",
+    "delta": 2
+   },
+   {
+    "vehicleId": "car_d",
+    "delta": 2
+   },
+   {
+    "vehicleId": "car_k",
+    "delta": -3
+   },
+   {
+    "vehicleId": "car_m",
+    "delta": -3
+   },
+   {
+    "vehicleId": "car_d",
+    "delta": -1
+   },
+   {
+    "vehicleId": "car_i",
+    "delta": -3
+   },
+   {
+    "vehicleId": "car_red",
+    "delta": 7
+   }
+  ],
+  "difficulty": "hard"
+ },
+ {
+  "id": "level_026",
+  "title": "此起彼伏",
+  "rows": 8,
+  "cols": 8,
+  "exit": {
+   "side": "RIGHT",
+   "row": 3
+  },
+  "targetVehicleId": "car_red",
+  "parMoves": 12,
+  "vehicles": [
+   {
+    "id": "car_red",
+    "x": 1,
+    "y": 3,
+    "length": 2,
+    "orientation": "H",
+    "isTarget": true
+   },
+   {
+    "id": "car_b",
+    "x": 6,
+    "y": 2,
+    "length": 2,
+    "orientation": "H"
+   },
+   {
+    "id": "car_c",
+    "x": 3,
+    "y": 2,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_d",
+    "x": 1,
+    "y": 6,
+    "length": 2,
+    "orientation": "H"
+   },
+   {
+    "id": "car_e",
+    "x": 3,
+    "y": 5,
+    "length": 2,
+    "orientation": "H"
+   },
+   {
+    "id": "car_f",
+    "x": 5,
+    "y": 1,
+    "length": 2,
+    "orientation": "H"
+   },
+   {
+    "id": "car_g",
+    "x": 3,
+    "y": 6,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_h",
+    "x": 5,
+    "y": 6,
+    "length": 3,
+    "orientation": "H"
+   },
+   {
+    "id": "car_i",
+    "x": 2,
+    "y": 4,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_j",
+    "x": 3,
+    "y": 1,
+    "length": 2,
+    "orientation": "H"
+   },
+   {
+    "id": "car_k",
+    "x": 2,
+    "y": 0,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_l",
+    "x": 4,
+    "y": 2,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_m",
+    "x": 4,
+    "y": 0,
+    "length": 3,
+    "orientation": "H"
+   },
+   {
+    "id": "car_n",
+    "x": 7,
+    "y": 3,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_o",
+    "x": 0,
+    "y": 1,
+    "length": 3,
+    "orientation": "V"
+   },
+   {
+    "id": "car_p",
+    "x": 5,
+    "y": 2,
+    "length": 3,
+    "orientation": "V"
+   },
+   {
+    "id": "car_q",
+    "x": 5,
+    "y": 5,
+    "length": 2,
+    "orientation": "H"
+   }
+  ],
+  "obstacles": [
+   [
+    6,
+    7
+   ],
+   [
+    4,
+    6
+   ],
+   [
+    4,
+    4
+   ],
+   [
+    1,
+    0
+   ],
+   [
+    4,
+    7
+   ]
+  ],
+  "solution": [
+   {
+    "vehicleId": "car_f",
+    "delta": 1
+   },
+   {
+    "vehicleId": "car_n",
+    "delta": 1
+   },
+   {
+    "vehicleId": "car_o",
+    "delta": 3
+   },
+   {
+    "vehicleId": "car_red",
+    "delta": -1
+   },
+   {
+    "vehicleId": "car_k",
+    "delta": 2
+   },
+   {
+    "vehicleId": "car_j",
+    "delta": -3
+   },
+   {
+    "vehicleId": "car_c",
+    "delta": -1
+   },
+   {
+    "vehicleId": "car_k",
+    "delta": -1
+   },
+   {
+    "vehicleId": "car_l",
+    "delta": -1
+   },
+   {
+    "vehicleId": "car_m",
+    "delta": -2
+   },
+   {
+    "vehicleId": "car_p",
+    "delta": -2
+   },
+   {
+    "vehicleId": "car_red",
+    "delta": 8
+   }
+  ],
+  "difficulty": "hard"
+ },
+ {
+  "id": "level_027",
+  "title": "错综复杂",
+  "rows": 8,
+  "cols": 8,
+  "exit": {
+   "side": "RIGHT",
+   "row": 3
+  },
+  "targetVehicleId": "car_red",
+  "parMoves": 12,
+  "vehicles": [
+   {
+    "id": "car_red",
+    "x": 2,
+    "y": 3,
+    "length": 2,
+    "orientation": "H",
+    "isTarget": true
+   },
+   {
+    "id": "car_b",
+    "x": 7,
+    "y": 2,
+    "length": 3,
+    "orientation": "V"
+   },
+   {
+    "id": "car_c",
+    "x": 1,
+    "y": 6,
+    "length": 2,
+    "orientation": "H"
+   },
+   {
+    "id": "car_d",
+    "x": 4,
+    "y": 2,
+    "length": 3,
+    "orientation": "V"
+   },
+   {
+    "id": "car_e",
+    "x": 5,
+    "y": 1,
+    "length": 2,
+    "orientation": "H"
+   },
+   {
+    "id": "car_f",
+    "x": 4,
+    "y": 6,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_g",
+    "x": 6,
+    "y": 4,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_h",
+    "x": 0,
+    "y": 2,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_i",
+    "x": 0,
+    "y": 7,
+    "length": 3,
+    "orientation": "H"
+   },
+   {
+    "id": "car_j",
+    "x": 3,
+    "y": 1,
+    "length": 2,
+    "orientation": "H"
+   },
+   {
+    "id": "car_k",
+    "x": 0,
+    "y": 4,
+    "length": 3,
+    "orientation": "V"
+   },
+   {
+    "id": "car_l",
+    "x": 4,
+    "y": 0,
+    "length": 3,
+    "orientation": "H"
+   },
+   {
+    "id": "car_m",
+    "x": 5,
+    "y": 7,
+    "length": 3,
+    "orientation": "H"
+   },
+   {
+    "id": "car_n",
+    "x": 2,
+    "y": 0,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_o",
+    "x": 6,
+    "y": 2,
+    "length": 2,
+    "orientation": "V"
+   }
+  ],
+  "obstacles": [
+   [
+    7,
+    5
+   ],
+   [
+    3,
+    6
+   ],
+   [
+    1,
+    2
+   ],
+   [
+    5,
+    2
+   ]
+  ],
+  "solution": [
+   {
+    "vehicleId": "car_b",
+    "delta": -2
+   },
+   {
+    "vehicleId": "car_f",
+    "delta": -1
+   },
+   {
+    "vehicleId": "car_h",
+    "delta": -2
+   },
+   {
+    "vehicleId": "car_red",
+    "delta": -2
+   },
+   {
+    "vehicleId": "car_m",
+    "delta": -2
+   },
+   {
+    "vehicleId": "car_g",
+    "delta": 2
+   },
+   {
+    "vehicleId": "car_n",
+    "delta": 4
+   },
+   {
+    "vehicleId": "car_j",
+    "delta": -2
+   },
+   {
+    "vehicleId": "car_l",
+    "delta": -3
+   },
+   {
+    "vehicleId": "car_d",
+    "delta": -2
+   },
+   {
+    "vehicleId": "car_o",
+    "delta": 2
+   },
+   {
+    "vehicleId": "car_red",
+    "delta": 8
+   }
+  ],
+  "difficulty": "hard"
+ },
+ {
+  "id": "level_028",
+  "title": "困兽犹斗",
+  "rows": 8,
+  "cols": 8,
+  "exit": {
+   "side": "RIGHT",
+   "row": 3
+  },
+  "targetVehicleId": "car_red",
+  "parMoves": 13,
+  "vehicles": [
+   {
+    "id": "car_red",
+    "x": 2,
+    "y": 3,
+    "length": 2,
+    "orientation": "H",
+    "isTarget": true
+   },
+   {
+    "id": "car_b",
+    "x": 2,
+    "y": 1,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_c",
+    "x": 2,
+    "y": 4,
+    "length": 3,
+    "orientation": "V"
+   },
+   {
+    "id": "car_d",
+    "x": 0,
+    "y": 1,
+    "length": 2,
+    "orientation": "H"
+   },
+   {
+    "id": "car_e",
+    "x": 4,
+    "y": 2,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_f",
+    "x": 7,
+    "y": 0,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_g",
+    "x": 5,
+    "y": 7,
+    "length": 3,
+    "orientation": "H"
+   },
+   {
+    "id": "car_h",
+    "x": 4,
+    "y": 5,
+    "length": 2,
+    "orientation": "H"
+   },
+   {
+    "id": "car_i",
+    "x": 6,
+    "y": 5,
+    "length": 2,
+    "orientation": "H"
+   },
+   {
+    "id": "car_j",
+    "x": 1,
+    "y": 5,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_k",
+    "x": 6,
+    "y": 0,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_l",
+    "x": 1,
+    "y": 0,
+    "length": 3,
+    "orientation": "H"
+   },
+   {
+    "id": "car_m",
+    "x": 5,
+    "y": 6,
+    "length": 3,
+    "orientation": "H"
+   },
+   {
+    "id": "car_n",
+    "x": 4,
+    "y": 0,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_o",
+    "x": 4,
+    "y": 4,
+    "length": 3,
+    "orientation": "H"
+   },
+   {
+    "id": "car_p",
+    "x": 0,
+    "y": 3,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_q",
+    "x": 5,
+    "y": 1,
+    "length": 2,
+    "orientation": "V"
+   }
+  ],
+  "obstacles": [
+   [
+    0,
+    0
+   ],
+   [
+    6,
+    2
+   ],
+   [
+    3,
+    7
+   ],
+   [
+    3,
+    2
+   ],
+   [
+    1,
+    7
+   ]
+  ],
+  "solution": [
+   {
+    "vehicleId": "car_o",
+    "delta": 1
+   },
+   {
+    "vehicleId": "car_e",
+    "delta": 1
+   },
+   {
+    "vehicleId": "car_n",
+    "delta": 1
+   },
+   {
+    "vehicleId": "car_l",
+    "delta": 2
+   },
+   {
+    "vehicleId": "car_b",
+    "delta": -1
+   },
+   {
+    "vehicleId": "car_p",
+    "delta": 1
+   },
+   {
+    "vehicleId": "car_red",
+    "delta": -2
+   },
+   {
+    "vehicleId": "car_c",
+    "delta": -2
+   },
+   {
+    "vehicleId": "car_h",
+    "delta": -2
+   },
+   {
+    "vehicleId": "car_e",
+    "delta": 3
+   },
+   {
+    "vehicleId": "car_h",
+    "delta": 1
+   },
+   {
+    "vehicleId": "car_c",
+    "delta": 2
+   },
+   {
+    "vehicleId": "car_red",
+    "delta": 8
+   }
+  ],
+  "difficulty": "hard"
+ },
+ {
+  "id": "level_029",
+  "title": "步步惊心",
+  "rows": 8,
+  "cols": 8,
+  "exit": {
+   "side": "RIGHT",
+   "row": 3
+  },
+  "targetVehicleId": "car_red",
+  "parMoves": 13,
+  "vehicles": [
+   {
+    "id": "car_red",
+    "x": 0,
+    "y": 3,
+    "length": 2,
+    "orientation": "H",
+    "isTarget": true
+   },
+   {
+    "id": "car_b",
+    "x": 4,
+    "y": 3,
+    "length": 3,
+    "orientation": "V"
+   },
+   {
+    "id": "car_c",
+    "x": 6,
+    "y": 2,
+    "length": 3,
+    "orientation": "V"
+   },
+   {
+    "id": "car_d",
+    "x": 2,
+    "y": 2,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_e",
+    "x": 3,
+    "y": 7,
+    "length": 3,
+    "orientation": "H"
+   },
+   {
+    "id": "car_f",
+    "x": 2,
+    "y": 0,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_g",
+    "x": 6,
+    "y": 5,
+    "length": 2,
+    "orientation": "H"
+   },
+   {
+    "id": "car_h",
+    "x": 5,
+    "y": 1,
+    "length": 2,
+    "orientation": "H"
+   },
+   {
+    "id": "car_i",
+    "x": 2,
+    "y": 4,
+    "length": 2,
+    "orientation": "H"
+   },
+   {
+    "id": "car_j",
+    "x": 3,
+    "y": 5,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_k",
+    "x": 4,
+    "y": 0,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_l",
+    "x": 7,
+    "y": 2,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_m",
+    "x": 4,
+    "y": 2,
+    "length": 2,
+    "orientation": "H"
+   },
+   {
+    "id": "car_n",
+    "x": 0,
+    "y": 0,
+    "length": 3,
+    "orientation": "V"
+   },
+   {
+    "id": "car_o",
+    "x": 5,
+    "y": 5,
+    "length": 2,
+    "orientation": "V"
+   }
+  ],
+  "obstacles": [
+   [
+    7,
+    6
+   ],
+   [
+    2,
+    6
+   ],
+   [
+    5,
+    4
+   ]
+  ],
+  "solution": [
+   {
+    "vehicleId": "car_e",
+    "delta": -3
+   },
+   {
+    "vehicleId": "car_i",
+    "delta": -2
+   },
+   {
+    "vehicleId": "car_d",
+    "delta": 1
+   },
+   {
+    "vehicleId": "car_j",
+    "delta": -5
+   },
+   {
+    "vehicleId": "car_l",
+    "delta": -2
+   },
+   {
+    "vehicleId": "car_m",
+    "delta": -3
+   },
+   {
+    "vehicleId": "car_b",
+    "delta": -1
+   },
+   {
+    "vehicleId": "car_o",
+    "delta": 1
+   },
+   {
+    "vehicleId": "car_g",
+    "delta": -6
+   },
+   {
+    "vehicleId": "car_b",
+    "delta": 2
+   },
+   {
+    "vehicleId": "car_c",
+    "delta": 2
+   },
+   {
+    "vehicleId": "car_d",
+    "delta": 1
+   },
+   {
+    "vehicleId": "car_red",
+    "delta": 8
+   }
+  ],
+  "difficulty": "hard"
+ },
+ {
+  "id": "level_030",
+  "title": "车阵迷踪",
+  "rows": 8,
+  "cols": 8,
+  "exit": {
+   "side": "RIGHT",
+   "row": 3
+  },
+  "targetVehicleId": "car_red",
+  "parMoves": 16,
+  "vehicles": [
+   {
+    "id": "car_red",
+    "x": 1,
+    "y": 3,
+    "length": 2,
+    "orientation": "H",
+    "isTarget": true
+   },
+   {
+    "id": "car_b",
+    "x": 2,
+    "y": 5,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_c",
+    "x": 5,
+    "y": 0,
+    "length": 3,
+    "orientation": "H"
+   },
+   {
+    "id": "car_d",
+    "x": 3,
+    "y": 2,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_e",
+    "x": 1,
+    "y": 1,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_f",
+    "x": 4,
+    "y": 5,
+    "length": 3,
+    "orientation": "V"
+   },
+   {
+    "id": "car_g",
+    "x": 3,
+    "y": 5,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_h",
+    "x": 3,
+    "y": 1,
+    "length": 2,
+    "orientation": "H"
+   },
+   {
+    "id": "car_i",
+    "x": 3,
+    "y": 4,
+    "length": 2,
+    "orientation": "H"
+   },
+   {
+    "id": "car_j",
+    "x": 7,
+    "y": 2,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_k",
+    "x": 2,
+    "y": 0,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_l",
+    "x": 0,
+    "y": 0,
+    "length": 2,
+    "orientation": "H"
+   },
+   {
+    "id": "car_m",
+    "x": 0,
+    "y": 2,
+    "length": 2,
+    "orientation": "V"
+   },
+   {
+    "id": "car_n",
+    "x": 6,
+    "y": 5,
+    "length": 2,
+    "orientation": "H"
+   },
+   {
+    "id": "car_o",
+    "x": 5,
+    "y": 1,
+    "length": 2,
+    "orientation": "V"
+   }
+  ],
+  "obstacles": [
+   [
+    7,
+    1
+   ],
+   [
+    4,
+    2
+   ],
+   [
+    5,
+    4
+   ],
+   [
+    2,
+    4
+   ],
+   [
+    6,
+    1
+   ]
+  ],
+  "solution": [
+   {
+    "vehicleId": "car_m",
+    "delta": 2
+   },
+   {
+    "vehicleId": "car_n",
+    "delta": -1
+   },
+   {
+    "vehicleId": "car_j",
+    "delta": 2
+   },
+   {
+    "vehicleId": "car_o",
+    "delta": 1
+   },
+   {
+    "vehicleId": "car_h",
+    "delta": 1
+   },
+   {
+    "vehicleId": "car_d",
+    "delta": -2
+   },
+   {
+    "vehicleId": "car_red",
+    "delta": 1
+   },
+   {
+    "vehicleId": "car_e",
+    "delta": 3
+   },
+   {
+    "vehicleId": "car_red",
+    "delta": -2
+   },
+   {
+    "vehicleId": "car_d",
+    "delta": 2
+   },
+   {
+    "vehicleId": "car_k",
+    "delta": 2
+   },
+   {
+    "vehicleId": "car_h",
+    "delta": -4
+   },
+   {
+    "vehicleId": "car_d",
+    "delta": -2
+   },
+   {
+    "vehicleId": "car_k",
+    "delta": -2
+   },
+   {
+    "vehicleId": "car_o",
+    "delta": -1
+   },
+   {
+    "vehicleId": "car_red",
+    "delta": 8
+   }
+  ],
+  "difficulty": "hard"
+ }
+];

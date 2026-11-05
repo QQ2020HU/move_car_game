@@ -1,0 +1,38 @@
+{
+  "description": "堵车大作战 - 挪车解谜微信小游戏",
+  "appid": "wxfafd5fc52ea8f549",
+  "projectname": "TrafficPuzzle",
+  "compileType": "game",
+  "libVersion": "3.0.0",
+  "setting": {
+    "es6": true,
+    "urlCheck": false,
+    "postcss": false,
+    "minified": false,
+    "compileWorklet": false,
+    "uglifyFileName": false,
+    "uploadWithSourceMap": true,
+    "enhance": false,
+    "packNpmManually": false,
+    "packNpmRelationList": [],
+    "minifyWXSS": true,
+    "minifyWXML": true,
+    "localPlugins": false,
+    "disableUseStrict": false,
+    "useCompilerPlugins": false,
+    "condition": false,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    }
+  },
+  "condition": {},
+  "simulatorPluginLibVersion": {},
+  "packOptions": {
+    "ignore": [],
+    "include": []
+  },
+  "isGameTourist": false,
+  "editorSetting": {}
+}
